@@ -1,0 +1,5 @@
+# 统一换行策略：仓库内一律存 LF，检出时按平台转换
+* text=auto eol=lf
+
+# Windows 批处理脚本必须保持 CRLF
+*.bat text eol=crlf
